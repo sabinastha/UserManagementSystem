@@ -1,0 +1,63 @@
+<web-app>
+	<servlet>
+		<servlet-name>registerhandler</servlet-name>
+		<servlet-class>RegisterHandler</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>registerhandler</servlet-name>
+		<url-pattern>/registerhandler</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>loginhandler</servlet-name>
+		<servlet-class>LoginHandler</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loginhandler</servlet-name>
+		<url-pattern>/loginhandler</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>userview</servlet-name>
+		<servlet-class>UserView</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>userview</servlet-name>
+		<url-pattern>/userview</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserDelete</servlet-name>
+		<servlet-class>UserDelete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserDelete</servlet-name>
+		<url-pattern>/userdelete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserUpdate</servlet-name>
+		<servlet-class>UserUpdate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserUpdate</servlet-name>
+		<url-pattern>/userupdate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SelectUser</servlet-name>
+		<servlet-class>SelectUser</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SelectUser</servlet-name>
+		<url-pattern>/selectuser</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
